@@ -15,13 +15,13 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-3031/ink
+3036/ปราสาท
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-560003
+559733
 ```
 
 OJ status:
@@ -35,7 +35,6 @@ Independent time spent on this problem:
 ```text
 1-3 hours
 ```
-
 
 How to count this time:
 
@@ -59,9 +58,7 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
--รับค่า การขยายของหมึก รับจำนวน คน และตำแหน่งบ้านแต่ละคน
--คำนวณเวลาในการขยายหมึกถึงบ้านที่ละคน
--printบอกเวลาที่ละหลัง
+
 ```
 
 ---
@@ -81,9 +78,12 @@ This can be rough. It may be incomplete or different from your final solution.
 You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```text
-Step 1:รับค่า inkrate และ จำนวนคน
-Step 2:loop รับค่าตำแหน่งบ้านและคำนวณทีละหลังตามจำนวนคน
-Step 3:print ออกมาท้ายloop
+Step 1:ลองหาความสัมพันธ์ของปราสาท ชั้น คำตอบ เลขคู่ เลขคี่
+Step 2:ลองคำนวณในกระดาษ และปรับมาใช้ปรับโปรแกรม
+Step 3:เขียนรับ input สร้างlist เพื่อใช้ในการคำนวณอนุกรมผลรวมของชั้น สร้างตัวแปรเพื่อเก็บข้อมูลชั้นในloop
+Step 4:สร้างloopเพื่อคำนวณจะได้ชั้นที่เลขอยู่
+Step 5:เช็คเงื่อนไขว่าชั้นเป็น เลขคู่/คี่ เลขที่ได้inputมาเป็นคู่หรือคี่
+Step 6:คำนวณตามเงื่อนไขให้่ถูกต้อง
 ```
 
 ---
@@ -123,32 +123,31 @@ If the input or output has many lines, write them inside the text blocks.
 Why I chose this case:
 
 ```text
-คำนวณหลังท้ายที่มีการปัดทศนิยม
+25
 ```
 
 Input:
 
 ```text
-1 1
-0 60
+25
 ```
 
 Expected output:
 
 ```text
-227
+8
 ```
 
 Actual output:
 
 ```text
-227
+8
 ```
 
 Result:
 
 ```text
- pass
+Pass
 ```
 
 ### Test Case 2
@@ -156,26 +155,25 @@ Result:
 Why I chose this case:
 
 ```text
-ลองทดลองบ้านทีละหลัง
+1
 ```
 
 Input:
-
+1
 ```text
-0 1
-30 30
+
 ```
 
 Expected output:
 
 ```text
-114
+0
 ```
 
 Actual output:
 
 ```text
-114
+0
 ```
 
 Result:
@@ -189,35 +187,25 @@ Pass
 Why I chose this case:
 
 ```text
-เทสเต็มระบบ
+100
 ```
 
 Input:
 
 ```text
-50 4
-0 0
-0 1
-30 30
-0 60
+100
 ```
 
 Expected output:
-
+10
 ```text
-0
-1
-114
-227
+
 ```
 
 Actual output:
 
 ```text
-0
-1
-114
-227
+10
 ```
 
 Result:
@@ -233,7 +221,7 @@ Pass
 Did you use AI for this problem?
 
 ```text
-Yes
+No
 ```
 
 If yes, also complete:
@@ -303,12 +291,12 @@ No
 
 Write `Yes` for each statement.
 
-| Statement | Yes/No |
+| Statement | Yes |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. | YES |
+| I understand my final code. | YES |
+| I recorded the real OJ status. | YES |
+| I did not copy AI-generated text directly into this file. | YES |
+| I did not copy code from another person. | YES |
+| If I received human help, I disclosed it in this file. | YES |
+| I submitted the final code to the OJ by myself. | YES |

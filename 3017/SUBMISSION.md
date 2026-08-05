@@ -15,13 +15,13 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-3025/Season
+Bill/3017
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-559889
+559835
 ```
 
 OJ status:
@@ -38,25 +38,19 @@ Independent time spent on this problem:
 
 How to count this time:
 
-- Count only the time you actively worked on this problem independently.
-- Start counting from when you first read the problem.
-- Do not include breaks, meals, classes, sleep, time spent on other problems, or time when you were not working on this problem.
-- If you used AI, count only the independent time before your first AI prompt.
-- If you asked a friend, TA, or instructor for help, count only the independent time before your first help request.
-- If you used both AI and human help, count only the independent time before the first outside help of any kind.
-- If you did not use AI or human help, count the time before writing this `submission.md`.
-- An estimate is acceptable, but it must be honest.
+-start form open create file 3017.py to 100% quality submit
 
 ---
 
 ## 2. My Understanding
 
-Write the problem in your own words.
 
-Also explain the input, output, and important constraints.
-
-If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
-
+```text
+-คำนวณเงินที่ต้องจ่ายโดย
+-คิดเงื่อนไข3แบบ คือ service น้อยกว่าเท่ากับ50,มากกว่า50แต่ไม่เกิน1000 และเกิน1000
+-เอาservice + เงินต้น คิด vat 
+-คิดtotal price
+```
 
 ---
 
@@ -75,9 +69,10 @@ This can be rough. It may be incomplete or different from your final solution.
 You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```text
-Step 1:พิมพ์รับค่าตัวแปร month,date
-Step 2:ทำเงื่อนไขแยก เดือนที่หาร3ลงตัวกับไม่ลงตัว
-Step 3:print คำตอบจากเดือนและวันที่
+-คำนวณเงินที่ต้องจ่ายโดย
+-คิดเงื่อนไข3แบบ คือ service น้อยกว่าเท่ากับ50,มากกว่า50แต่ไม่เกิน1000 และเกิน1000
+-เอาservice + เงินต้น คิด vat 
+-คิดtotal price
 ```
 
 ---
@@ -117,30 +112,29 @@ If the input or output has many lines, write them inside the text blocks.
 Why I chose this case:
 
 ```text
-เทสที่ต้องถูกอันแรกแน่ๆ
+100 case
 ```
 
 Input:
 
 ```text
-1
-1
+100
 ```
 
 Expected output:
 
 ```text
-winter
+160.50
 ```
 
 Actual output:
 
 ```text
-winter
+160.50
 ```
 
 Result:
-
+good result
 ```text
 Pass
 ```
@@ -148,28 +142,27 @@ Pass
 ### Test Case 2
 
 Why I chose this case:
-
+มีทศนิยมต้องคิดให้ดี
 ```text
-เข้าเงื่่อนไขเดือน3แต่ยังเป็นwinterอยู่
+1888 case
 ```
 
 Input:
 
 ```text
-3
-20
+1888
 ```
 
 Expected output:
 
 ```text
-winter
+2222.18
 ```
 
 Actual output:
 
 ```text
-winter
+2222.18
 ```
 
 Result:
@@ -181,32 +174,31 @@ Pass
 ### Test Case 3
 
 Why I chose this case:
-
+เข้าเงื่อนไขที่3
 ```text
-เข้าเงื่อนไขเดือน3และเป็นspring แล้ว
+99999
 ```
 
 Input:
 
 ```text
-3
-21
+99999
 ```
 
 Expected output:
 
 ```text
-spring
+108068.93
 ```
 
 Actual output:
 
 ```text
-spring
+108068.93
 ```
 
 Result:
-
+good result too
 ```text
 Pass
 ```
@@ -261,19 +253,19 @@ Not allowed:
 Who helped you?
 
 ```text
-
+no one
 ```
 
 What did they help with?
 
 ```text
-
+-
 ```
 
 What did you still do by yourself?
 
 ```text
-
+all
 ```
 
 Did you copy any code from another person?
@@ -290,10 +282,10 @@ Write `Yes` for each statement.
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. | YES |
+| I understand my final code. | YES |
+| I recorded the real OJ status. | YES |
+| I did not copy AI-generated text directly into this file. | YES |
+| I did not copy code from another person. | YES |
+| If I received human help, I disclosed it in this file. | YES |
+| I submitted the final code to the OJ by myself. | YES |

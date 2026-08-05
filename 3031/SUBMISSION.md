@@ -1,5 +1,13 @@
 # Problem Solving Submission
 
+This file must be written by the student in their own words.
+
+Use this template only for OJ problems that are marked as learning-log required.
+
+Do not ask AI to write this file for you. AI may help check grammar, formatting, or clarity after you have written your own content.
+
+If AI was used for this learning-log-required problem, also complete `ai_reflection.md`.
+
 ---
 
 ## 1. OJ Information
@@ -7,13 +15,13 @@
 OJ problem number/title:
 
 ```text
-Colors/3011
+3031/ink
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-559812
+560003
 ```
 
 OJ status:
@@ -25,12 +33,20 @@ Pass
 Independent time spent on this problem:
 
 ```text
-15-30 minutes
+1-3 hours
 ```
+
 
 How to count this time:
 
--count start from open VScode to 100% quality submit
+- Count only the time you actively worked on this problem independently.
+- Start counting from when you first read the problem.
+- Do not include breaks, meals, classes, sleep, time spent on other problems, or time when you were not working on this problem.
+- If you used AI, count only the independent time before your first AI prompt.
+- If you asked a friend, TA, or instructor for help, count only the independent time before your first help request.
+- If you used both AI and human help, count only the independent time before the first outside help of any kind.
+- If you did not use AI or human help, count the time before writing this `submission.md`.
+- An estimate is acceptable, but it must be honest.
 
 ---
 
@@ -43,8 +59,9 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
--ต้องรับสีสองสี
--เช็คว่าเป็นแม่สีผสมกันได้ไหม
+-รับค่า การขยายของหมึก รับจำนวน คน และตำแหน่งบ้านแต่ละคน
+-คำนวณเวลาในการขยายหมึกถึงบ้านที่ละคน
+-printบอกเวลาที่ละหลัง
 ```
 
 ---
@@ -64,10 +81,9 @@ This can be rough. It may be incomplete or different from your final solution.
 You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```text
--input 2 สี
--เช็คว่าสีเดียวกันไหม
--ใช่ สีอะไร --- ตอบ
--ไม่ใช่ ผสมได้ไหม ---- ตอบ
+Step 1:รับค่า inkrate และ จำนวนคน
+Step 2:loop รับค่าตำแหน่งบ้านและคำนวณทีละหลังตามจำนวนคน
+Step 3:print ออกมาท้ายloop
 ```
 
 ---
@@ -87,7 +103,7 @@ Do not copy AI's explanation.
 Do not copy another person's explanation.
 
 ```text
-เหมือนกัน วิธีคิดใช้ได้แค่ต้องลองเช็คtest case ดักไปเรื่อยๆ
+same
 ```
 
 ---
@@ -105,63 +121,64 @@ If the input or output has many lines, write them inside the text blocks.
 ### Test Case 1
 
 Why I chose this case:
-เช็คการทำงานเงื่อนไขขั้นต้น
+
 ```text
-Red Blue
+คำนวณหลังท้ายที่มีการปัดทศนิยม
 ```
 
 Input:
 
 ```text
-Red Blue
+1 1
+0 60
 ```
 
 Expected output:
 
 ```text
-Violet
+227
 ```
 
 Actual output:
 
 ```text
-Violet
+227
 ```
 
 Result:
-Violet
+
 ```text
-Pass
+ pass
 ```
 
 ### Test Case 2
 
 Why I chose this case:
-เช็คการทำงานของเงื่อนไขขั้นต่อไป
+
 ```text
-Orange check
+ลองทดลองบ้านทีละหลัง
 ```
 
 Input:
 
 ```text
-Red Yellow
+0 1
+30 30
 ```
 
 Expected output:
 
 ```text
-Orange
+114
 ```
 
 Actual output:
 
 ```text
-Orange
+114
 ```
 
 Result:
-Orange
 
 ```text
 Pass
@@ -170,33 +187,43 @@ Pass
 ### Test Case 3
 
 Why I chose this case:
-เข้าเงื่อนไขสีเหมือนกันแต่ไม่อยู่ในเงื่อนไข
+
 ```text
-GREEN GREEN
+เทสเต็มระบบ
 ```
 
 Input:
 
 ```text
-GREEN GREEN
+50 4
+0 0
+0 1
+30 30
+0 60
 ```
 
 Expected output:
 
 ```text
-Error
+0
+1
+114
+227
 ```
 
 Actual output:
 
 ```text
-
+0
+1
+114
+227
 ```
 
 Result:
-ไม่ขึนต้องดักเทสเคสเพิ่ม
+
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ---
@@ -224,13 +251,10 @@ If you only asked a friend, TA, or instructor and did not use AI, you do not nee
 Did you ask a friend, TA, instructor, or another person for help on this problem?
 
 ```text
-Yes 
+Yes / No
 ```
 
-yes
-
--ถามวิธีการได้คำตอบว่าวิธีแนวๆเดียวกัน
--ถามtest caseสีเหมือนได้คำตอบว่าต้องดักด้วย
+If yes, briefly explain what kind of help you received.
 
 Allowed examples:
 
@@ -252,21 +276,19 @@ Not allowed:
 Who helped you?
 
 ```text
-freind
+
 ```
 
 What did they help with?
 
 ```text
--ถามวิธีการได้คำตอบว่าวิธีแนวๆเดียวกัน
--ถามtest caseสีเหมือนได้คำตอบว่าต้องดักด้วย
 
 ```
 
 What did you still do by yourself?
 
 ```text
-all with out thats
+
 ```
 
 Did you copy any code from another person?
@@ -283,10 +305,10 @@ Write `Yes` for each statement.
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. | YES |
+| I understand my final code. | YES |
+| I recorded the real OJ status. | YES |
+| I did not copy AI-generated text directly into this file. | YES |
+| I did not copy code from another person. | YES |
+| If I received human help, I disclosed it in this file. | YES |
+| I submitted the final code to the OJ by myself. | YES |

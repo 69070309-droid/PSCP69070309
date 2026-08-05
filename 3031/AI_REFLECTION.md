@@ -160,8 +160,8 @@ Answer honestly.
 
 | Statement | Yes |
 |---|---|
-| I wrote this reflection in my own words. |  |
-| This reflection describes my real AI use. |  |
-| I checked AI's suggestions before using them. |  |
-| I can explain my final code. |  |
-| I did not ask AI to write this reflection for me. |  |
+| I wrote this reflection in my own words. | YES |
+| This reflection describes my real AI use. | YES |
+| I checked AI's suggestions before using them. | YES |
+| I can explain my final code. | YES |
+| I did not ask AI to write this reflection for me. | YES |
