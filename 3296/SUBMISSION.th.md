@@ -15,25 +15,25 @@
 หมายเลข/ชื่อโจทย์ OJ:
 
 ```text
-3293 BigFrame
+[LEARNING LOGS] RGB Mixed
 ```
 
 OJ submission ID ถ้ามีการส่งแล้ว:
 
 ```text
-660628
+661105
 ```
 
 สถานะ OJ:
 
 ```text
-Pass / Not Pass / Not Submit
+Pass
 ```
 
 เวลาที่ใช้คิดและทำโจทย์ด้วยตนเอง:
 
 ```text
-30-60 minutes
+0-15 minutes
 ```
 
 เลือกหนึ่งข้อ:
@@ -73,7 +73,7 @@ More than 4 weeks
 ถ้ายังไม่เข้าใจโจทย์ทั้งหมด ให้เขียนสิ่งที่เข้าใจในตอนนี้ ความเข้าใจอาจยังไม่ครบหรืออาจผิดได้ แต่ต้องพยายามอธิบายอย่างจริงใจ
 
 ```text
-ปัญหาสำคัญคือ ต้องเช็คความยาวบรรทัดที่ยาวที่สุดแล้วทำให้ทุกตัวยาว เท่ากันด้วยช่องว่าง
+รับค่า บวก หาร2เอาส่วน
 ```
 
 ---
@@ -93,9 +93,9 @@ More than 4 weeks
 สามารถเขียนเป็น pseudocode, flowchart idea หรือขั้นตอนความคิดได้
 
 ```text
-Step 1:ลองเช็คlenทุกinput
-Step 2:printตามformatที่คิดว่าจะใช่
-Step 3:ลองดูเอาพุต
+Step 1:ใช้ map รัยinput 6 ตัว
+Step 2:บวกกัน หาร2 เอาส่วน
+Step 3:print output
 ```
 
 ---
@@ -115,7 +115,7 @@ Step 3:ลองดูเอาพุต
 ห้ามคัดลอกคำอธิบายจากคนอื่น
 
 ```text
-
+วิธีเดิม
 ```
 
 ---
@@ -135,41 +135,29 @@ Step 3:ลองดูเอาพุต
 ทำไมเลือก case นี้:
 
 ```text
-เป็นsample testcase ที่ปํญหาเยอะมากhello world + " "*7
+sample testcase 1
 ```
 
 Input:
 
 ```text
-Hello World       
-in 
-a 
-big
-frame
+255 0 0
+0 0 255
+
 ```
 
 Expected output:
 
 ```text
-***************
-* Hello World *
-* in          *
-* a           *
-* big         *
-* frame       *
-***************
+127 0 127
+
 ```
 
 Actual output:
 
 ```text
-***************
-* Hello World *
-* in          *
-* a           *
-* big         *
-* frame       *
-***************
+127 0 127
+
 ```
 
 Result:
@@ -183,41 +171,26 @@ Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+sample testcase 2
 ```
 
 Input:
 
 ```text
-Hello
-World in      
-a
-
-big frame
+0 255 0
+0 0 255
 ```
 
 Expected output:
 
 ```text
-*************
-* Hello     *
-* World in  *
-* a         *
-*           *
-* big frame *
-*************
+0 127 127
 ```
 
 Actual output:
 
 ```text
-*************
-* Hello     *
-* World in  *
-* a         *
-*           *
-* big frame *
-*************
+0 127 127
 ```
 
 Result:
@@ -231,42 +204,26 @@ Pass
 ทำไมเลือก case นี้:
 
 ```text
-ค่าน้อย  
-
+เลขง่ายพิมพ์เทสสะดวก
 ```
 
 Input:
 
 ```text
-P
-i
-a
-p
-p
+1 1 1
+1 1 1
 ```
 
 Expected output:
 
 ```text
-*****
-* P *
-* i *
-* a *
-* p *
-* p *
-*****
+1 1 1
 ```
 
 Actual output:
 
 ```text
-*****
-* P *
-* i *
-* a *
-* p *
-* p *
-*****
+1 1 1
 ```
 
 Result:
@@ -354,7 +311,7 @@ No
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | `Yes` |
+| I wrote this submission in my own words. |`Yes` |
 | I understand my final code. |`Yes` |
 | I recorded the real OJ status. |`Yes` |
 | I did not copy AI-generated text directly into this file. |`Yes` |
