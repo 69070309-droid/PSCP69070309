@@ -15,25 +15,25 @@
 หมายเลข/ชื่อโจทย์ OJ:
 
 ```text
-
+[LEARNING LOGS] สลากกินแบ่ง
 ```
 
 OJ submission ID ถ้ามีการส่งแล้ว:
 
 ```text
-
+649544
 ```
 
 สถานะ OJ:
 
 ```text
-Pass / Not Pass / Not Submit
+Pass
 ```
 
 เวลาที่ใช้คิดและทำโจทย์ด้วยตนเอง:
 
 ```text
-
+0-15 minutes
 ```
 
 เลือกหนึ่งข้อ:
@@ -73,7 +73,8 @@ More than 4 weeks
 ถ้ายังไม่เข้าใจโจทย์ทั้งหมด ให้เขียนสิ่งที่เข้าใจในตอนนี้ ความเข้าใจอาจยังไม่ครบหรืออาจผิดได้ แต่ต้องพยายามอธิบายอย่างจริงใจ
 
 ```text
-
+รับ หวยที่ออกกับหวยที่ซื้อ
+เช็คว่าได้รางวัลอะไรตามโจทย์
 ```
 
 ---
@@ -93,9 +94,9 @@ More than 4 weeks
 สามารถเขียนเป็น pseudocode, flowchart idea หรือขั้นตอนความคิดได้
 
 ```text
-Step 1:
-Step 2:
-Step 3:
+Step 1:รับinput
+Step 2:ทำ condition เช็ครางวัลตามโจทย์
+Step 3:test code
 ```
 
 ---
@@ -115,7 +116,10 @@ Step 3:
 ห้ามคัดลอกคำอธิบายจากคนอื่น
 
 ```text
-
+แผนเดิม
+-รับ หวยถูก หวยซื้อ
+-เช็ค รางวัล
+-output ตามโจทย์
 ```
 
 ---
@@ -135,31 +139,32 @@ Step 3:
 ทำไมเลือก case นี้:
 
 ```text
-
+Sample Testcases 1
 ```
 
 Input:
 
 ```text
-
+A 12345
+A 12345
 ```
 
 Expected output:
 
 ```text
-
+1000000
 ```
 
 Actual output:
 
 ```text
-
+1000000
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 2
@@ -167,31 +172,32 @@ Pass / Not Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+Sample Testcases 2
 ```
 
 Input:
 
 ```text
-
+A 12345
+B 12345
 ```
 
 Expected output:
 
 ```text
-
+100000
 ```
 
 Actual output:
 
 ```text
-
+100000
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 3
@@ -199,31 +205,32 @@ Pass / Not Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+Sample Testcases 3
 ```
 
 Input:
 
 ```text
-
+A 12345
+A 99945
 ```
 
 Expected output:
 
 ```text
-
+1000
 ```
 
 Actual output:
 
 ```text
-
+1000
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ---
@@ -233,7 +240,7 @@ Pass / Not Pass
 ใช้ AI กับโจทย์นี้หรือไม่
 
 ```text
-Yes / No
+No
 ```
 
 ถ้าใช้ AI ต้องทำไฟล์นี้ด้วย:
@@ -251,7 +258,7 @@ ai_reflection.md
 ได้ถามเพื่อน TA ผู้สอน หรือบุคคลอื่นเพื่อขอความช่วยเหลือในโจทย์นี้หรือไม่
 
 ```text
-Yes / No
+ No
 ```
 
 ถ้าใช่ ให้อธิบายสั้น ๆ ว่าได้รับความช่วยเหลือแบบใด
@@ -305,10 +312,10 @@ No
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. | `Yes` |
+| I understand my final code. | `Yes` |
+| I recorded the real OJ status. | `Yes` |
+| I did not copy AI-generated text directly into this file. | `Yes` |
+| I did not copy code from another person. | `Yes` |
+| If I received human help, I disclosed it in this file. | `Yes` |
+| I submitted the final code to the OJ by myself. | `Yes` |
